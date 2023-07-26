@@ -13,6 +13,9 @@ public class FileUtils {
     /**
      * 读取execl中指定列的数据，并封装成list集合
      */
+    public void execlRead(){
+        System.out.println("execlRead");
+    }
 
     /**
      * 去除execl中指定行的数据
