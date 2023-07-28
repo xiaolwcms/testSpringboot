@@ -20,4 +20,7 @@ public class FileUtils {
     /**
      * 去除execl中指定行的数据
      */
+    public void execlWrite(){
+        System.out.println("execlWrite");
+    }
 }
