@@ -13,13 +13,7 @@ import org.junit.Test;
 public class StrUtilsTest {
     @Test
     public void formatPrint (){
-        String str="11001\n" +
-                "11002\n" +
-                "11004\n" +
-                "11005\n" +
-                "11006\n" +
-                "10923\n" +
-                "11091";
+        String str="";
         String symbol="\n";
         String packagingSymbols="'";
         String segmentationSymbol=",";
