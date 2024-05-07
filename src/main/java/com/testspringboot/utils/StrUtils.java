@@ -19,20 +19,11 @@ public class StrUtils {
     public static void formatPrint (String str,String symbol,String packagingSymbols,String segmentationSymbol){
         String[] sArray =str.split(symbol);
         StringBuilder stringBuilder=new StringBuilder();
-//        int i=2;
         for(String s:sArray){
             stringBuilder.append(packagingSymbols).append(s).append(packagingSymbols).append(segmentationSymbol);
-//            System.out.println("INSERT INTO DSPPROJECTMGR.SYS_DICT_DATA (DICT_CODE, DICT_SORT, DICT_LABEL, DICT_VALUE, DICT_TYPE, CSS_CLASS, LIST_CLASS,\n" +
-//                    "                                         IS_DEFAULT, STATUS, CREATE_BY, CREATE_TIME, UPDATE_BY, UPDATE_TIME, REMARK)\n" +
-//                    "VALUES (seq_sys_dict_data.NEXTVAL, "+i+", '"+s+"', '"+i+"', 'pm_health_analyse_condition',\n" +
-//                    "        null, null, 'Y', '0', 'administrator', sysdate, null, null,\n" +
-//                    "        '"+s+"');");
-//            i++;
         }
         stringBuilder.deleteCharAt(stringBuilder.length()-1);
         System.out.println(stringBuilder.toString());
-
-        //去重
 
     }
 }
